@@ -1,0 +1,24 @@
+# Rebuilt firmware artifacts
+/*.efi
+/*.ffs
+
+# Locally built/downloaded firmware tools
+/tools/bin/
+
+# Local vendor updates, hardware dumps, and UEFIExtract output
+/n22uj42w_extracted/
+*.FL1
+*.FL2
+*.rom
+*.spi
+bios*.bin
+*dump*.bin
+*.dump/
+*.report.txt
+*.guids.csv
+
+# Python cache
+__pycache__/
+*.pyc
+
+edk2
